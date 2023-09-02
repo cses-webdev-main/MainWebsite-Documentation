@@ -10,7 +10,7 @@ Each deployment is thoroughly tested, firstly with unit and integration testing 
 
 ## Backend
 
-The backend tech stack consists of a Node environment in Javascript running Express.js, deployed as an AWS Lambda function. It uses a PostgreSQL database hosted on AWS RDS to securely store basic user information.
+The backend tech stack consists of a Python environment, deployed as an AWS Lambda function with AWS SAM. It uses a PostgreSQL database hosted on AWS RDS to securely store basic user information.
 
 Each endpoint is thoroughly tested, first manually using resources like Postman on top of unit testing to ensure a stable development branch. Then, the development branch undergoes full E2E testing in conjunction with the frontend branch on multiple platforms / devices to ensure quality assurance.
 
